@@ -8,6 +8,8 @@
 
 This is a clever April Fools' Day project that masquerades as a Ruby `Gemfile` but is actually a fully functional Python game! Players control a basket to catch falling gems, trying to prevent gems from falling off the screen. The game ends on running out of lives.
 
+Latest Update on April 8th 2026: Added looping background music known as "Sky Temple Zone" (from Sonic Superstars, 16-bit version) as in `main_theme.mp3`, but sound effects aren't included.
+
 **The joke:** When developers see a file named "Gemfile" in a repository, they expect Ruby dependency declarations. Instead, they get a fun Python game! 😄
 
 ## 🤣 The April Fools' Day Prank
@@ -60,6 +62,7 @@ cd gemfile-as-a-python-game
 - Avoid dropping gems to preserve lives
 - Particle effects for visual appeal
 - Smooth controls and animations
+- Background music loop (no sound effects)
 - Perfect April Fools' Day surprise!
 
 ## 📁 Project Structure

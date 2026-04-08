@@ -8,6 +8,9 @@ SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 clock = pygame.time.Clock()
 font = pygame.font.Font(None, 36)
+pygame.mixer.init()
+pygame.mixer.music.load("main_theme.mp3")
+pygame.mixer.music.play(-1)
 
 
 class Particle:
@@ -127,7 +130,6 @@ class Basket:
 
 
 class Game:
-    """游戏主类"""
     def __init__(self):
         self.score = 0
         self.lives = 3
